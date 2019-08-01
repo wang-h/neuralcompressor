@@ -1,4 +1,4 @@
-# nncompress: Implementations of Embedding Quantization (Compress Word Embeddings)
+# A Pytorch Implementations of Embedding Quantization (Compress Word Embeddings)
 
 This is a stable pytorch re-implementation of https://github.com/zomux/neuralcompressor.
 
