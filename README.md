@@ -1,7 +1,7 @@
 # A Pytorch Implementations of Embedding Quantization (Compress Word Embeddings)
 
 This is a stable pytorch re-implementation of https://github.com/zomux/neuralcompressor.
-
+``Compressing Word Embeddings via Deep Compositional Code Learning`` https://arxiv.org/abs/1711.01068
 ### Requirements:
 
 numpy and pytorch==1.0

@@ -108,7 +108,7 @@ class EmbeddingCompressor(nn.Module):
         gumbel_output = D.view(-1, self.M*self.K).contiguous()
         maxp, _ = D.view(-1, self.M, self.K).max(dim=2)
         # 3. Decoding
-        gumbel_output = f.layer_norm(gumbel_output, gumbel_output.size())
+        #gumbel_output = f.layer_norm(gumbel_output, gumbel_output.size())
         pred = self._decode(gumbel_output)  # y_hat
         return logits, maxp.data.clone().mean(), pred
 
