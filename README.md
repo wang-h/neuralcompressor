@@ -36,8 +36,8 @@ Training Done
 ```
 
 ```
-(original tensorflow implementation) Mean euclidean distance: 4.889592628145218
-(this     pytorch    implementation) Mean euclidean distance: 4.161795844955444
+(original tensorflow implementation) Mean euclidean distance: 4.819045021452
+(this     pytorch    implementation) Mean euclidean distance: 4.144256239326 (better)
 ```
 
 4. Export the word codes and the codebook matrix
